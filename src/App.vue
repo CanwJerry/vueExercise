@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to My Vue"/>
+  <ComPutedGetSet></ComPutedGetSet>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import ComPutedGetSet from './components/ComPutedGetSet.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    ComPutedGetSet
   }
 }
 </script>
